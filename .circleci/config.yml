@@ -7,3 +7,4 @@ jobs:
     steps:
       - checkout
       - run: cat /etc/os-release
+      - run: echo "a"
