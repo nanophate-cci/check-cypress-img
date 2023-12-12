@@ -4,6 +4,7 @@ jobs:
   build:
     machine:
       image: ubuntu-2204:current
+    parallelism: 50
     steps:
       - checkout
       - run: cat /etc/os-release
